@@ -15,9 +15,11 @@ const Register = () => {
     const registerHandler=()=>{
         if(password!==confirmPassword){
             alert('Password doesnt match')
+        
         }else{
             const user ={name,email,password,confirmPassword}
-           dispatch(registerUser(user))
+            dispatch(registerUser(user))
+            window.location.href="/login"
         }
     }
     return (
