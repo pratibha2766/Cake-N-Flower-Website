@@ -15,12 +15,12 @@ const Topbar = () => {
                  <Navbar bg="dark" variant="dark">
                  <Container>
                  <Navbar.Brand href="#home" style={{color:"cyan",fontFamily:"serif", fontStyle:'italic'}}>Cakes & Flowers</Navbar.Brand>
-                 {/* <Nav className="me-auto">
+                 <Nav className="me-auto">
                  <Nav.Link href="/home" className="nav-link active" aria-current="page">Home</Nav.Link>
                  <Nav.Link href="/about" className="nav-link active" aria-current="page">About</Nav.Link>
                  <Nav.Link href="/contact" className="nav-link active"  aria-current="page">Contact Us</Nav.Link>
-                 </Nav> */}
-
+                 </Nav>
+{/* 
 <ul class="nav nav-pills">
     <li class="nav-item" style={{paddingLeft:'20px'}}>
         <a href="/home" class="nav-link active">Home</a>
@@ -35,10 +35,7 @@ const Topbar = () => {
         <a href="/contact" class="nav-link active">Contact Us</a>
     </li>
 
-    
-    
-    
-</ul>
+</ul> */}
                
                  <Nav>
                      {
